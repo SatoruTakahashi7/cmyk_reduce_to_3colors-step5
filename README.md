@@ -22,17 +22,12 @@
 - 入力カラー：C=10, M=15, Y=5, K=20  
 - 変換処理：色差が小さくなるよう、たとえばY=0にしつつCとMを補正し、Kも微調整することで、視覚的に元の色に近い3色構成のカラーを再構築  
 
-### 最終的なゴール  
-「CMYKの4色から、CMYのうち1色を削減して3色構成に変換」しつつ、  
-印刷時の見た目が元の色にできるだけ近くなるよう最適化されたIllustratorスクリプト（JavaScript / ExtendScript）。  
-
 ## 使用条件  
 このスクリプトが正常に動作する環境は以下の通りです。  
 -MacOS X14.7.6  
 -Illustrator2024（v28.7.7）  
 
-
-##インストール  
+## インストール  
 スクリプト本体（cmyk_reduce_to_3colors-step5.jsx）を  
 ~/Applications/Adobe Illustrator 2024/Presets.localized/ja_JP/スクリプト  
 にコピーしてください。エイリアスを入れておくだけでもかまいません。  
