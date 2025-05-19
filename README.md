@@ -24,8 +24,8 @@
 
 ## 使用条件  
 このスクリプトが正常に動作する環境は以下の通りです。  
--MacOS X14.7.6  
--Illustrator2024（v28.7.7）  
+- MacOS X14.7.6  
+- Illustrator2024（v28.7.7）  
 
 ## インストール  
 スクリプト本体（cmyk_reduce_to_3colors-step5.jsx）を  
